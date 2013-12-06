@@ -27,11 +27,10 @@ public class SimpleJdbcTemplateSpitterDaoMain {
 //        spitter.setFullName("Mark O'Connar");
 //        spitter.setEmail("mark.mailru");
 //        spitter.setUpdateByEmail(true);
-//        
+//
 //        dao.addSpitter(spitter);
-//        
+        
         Spitter user = dao.getSpitterById(3);
         System.out.println(user.getFullName());
     }
-
 }
