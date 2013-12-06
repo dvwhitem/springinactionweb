@@ -30,7 +30,7 @@ public class SimpleJdbcTemplateSpitterDaoMain {
 //
 //        dao.addSpitter(spitter);
         
-        Spitter user = dao.getSpitterById(3);
+        Spitter user = dao.getSpitterById(2);
         System.out.println(user.getFullName());
     }
 }
